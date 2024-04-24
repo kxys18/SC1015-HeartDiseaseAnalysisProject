@@ -2,7 +2,7 @@
 ### About
 This is a mini project for SC1015-Introduction to DSAI.
 
-Our team's objective is to make use of [Cardiovascular-Diseases-Risk-prediction-dataset](https://www.kaggle.com/datasets/alphiree/cardiovascular-diseases-risk-prediction-dataset) to look at various lifestyle choises and predict whether a person has heart disease or not.
+Our team's objective is to make use of [Cardiovascular-Diseases-Risk-prediction-dataset](https://www.kaggle.com/datasets/alphiree/cardiovascular-diseases-risk-prediction-dataset) from Kaggle to look at various lifestyle choices and predict whether a person has heart disease or not.
 Please view the source code in order from:
 1. [Data Cleaning and EDA](EDA.ipynb)
 2. [Decision Tree Model](DecisionTree.ipynb)
@@ -33,13 +33,13 @@ Please view the source code in order from:
 2. KNN
 3. Naive Bayes Classifier
 4. Random Forest
--   We also explored further and improved our models, where for KNN model we tried applying downsampling and random oversampling to reduce the effect the imbalanced data had on the model’s result, while for random forest, we tried customized voting system and found the threshold of voting system with better performance.
+-   We also explored further and improved our models, where for KNN model we tried applying downsampling and random oversampling to reduce the effect the imbalanced data had on the model’s result, while for random forest, we tried customised voting system and found the threshold of voting system with better performance.
 With this, our project can predict whether someone is likely to have heart disease given their basic lifestyle choices. 
 
 
 ### Data Driven Insights and Conclusion
 - Looking at Random Forest and Naive Bayes, we can see that while the threshold is 4, the Random Forest Model has approximately the same recall rate of 1 class while the overall accuracy is larger than Naive Bayes' result with a difference of 2.5% which shows than random forest is a better model in this case.
-- We also found that, In an imbalanced data set, the classifier tends to predict the testing data as the case of the majority group. When we are focusing on the minority group like people with heart disease in our project, this may bring trouble. In the future, we can study the theoretical explanation of why an imbalanced data makes the classifier more likely to return the majority case and try to establish a more effective model to work on imbalanced data. 
+- We also found that, in an imbalanced data set, the classifier tends to predict the testing data as the case of the majority group. When we are focusing on the minority group like people with heart disease in our project, this may bring trouble. In the future, we can study the theoretical explanation of why an imbalanced data makes the classifier more likely to return the majority case and try to establish a more effective model to work on imbalanced data. 
 
 ### Contribution
 - Angelina Joanne Solomon: EDA, Decision Tree, Voiceover 
