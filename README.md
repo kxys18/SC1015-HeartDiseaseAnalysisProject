@@ -38,11 +38,11 @@ With this, our project can predict whether someone is likely to have heart disea
 
 
 ### Data Driven Insights and Conclusion
-- Looking at Random Forest and Naive Bayes, we can see that while the threshold is 4, the Random Forest Model has approximately the same recall rate of 1 class while the overall accuracy is larger than Naive Bayse's result with a difference of 2.5% which shows than random forest is a better model in this case.
+- Looking at Random Forest and Naive Bayes, we can see that while the threshold is 4, the Random Forest Model has approximately the same recall rate of 1 class while the overall accuracy is larger than Naive Bayes' result with a difference of 2.5% which shows than random forest is a better model in this case.
 - We also found that, In an imbalanced data set, the classifier tends to predict the testing data as the case of the majority group. When we are focusing on the minority group like people with heart disease in our project, this may bring trouble. In the future, we can study the theoretical explanation of why an imbalanced data makes the classifier more likely to return the majority case and try to establish a more effective model to work on imbalanced data. 
 
 ### Contribution
-- Angelina Joanne Solomon: EDA, Decision Tree
+- Angelina Joanne Solomon: EDA, Decision Tree, Voiceover 
 - Krystal Pek Ke Yun: EDA, KNN
 - Liu Xiaotao: Decision Tree, Naive Bayes Classifier, Random Forest
 
